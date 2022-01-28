@@ -1,0 +1,42 @@
+---
+title: "Incêndios"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+
+incendioUC <- data.frame
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Histograma
+
+```{r}
+ggplot(data = incendioUC)
+
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
